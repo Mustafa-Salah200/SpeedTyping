@@ -1,0 +1,118 @@
+.profileuser {
+    background-color: #09121a;
+    height: 100%;
+}
+.profileuser .header {
+    text-align: center;
+    padding-top: 70px;
+}
+.profileuser .title {
+    color: #ffc107;
+    font-weight: bold;
+}
+.profileuser .userinfo{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    font-size: 14px;
+}
+.profileuser .scorebox {
+    background-color: green;
+    padding: 1px 3px 2px;
+    color: #fff;
+    border-radius: 4px;
+}
+.profileuser .info {
+    padding: 0 30px;
+}
+.moreinfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #123;
+    color: #7777;
+    box-shadow: 0px 0px 1px 1px #7777;
+    padding: 10px;
+}
+.profileuser .moreinfo div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    width: 130px;
+}
+.profileuser .moreinfo div:not(:last-child){
+    border-right: 1px solid;
+}
+.profileuser .content {
+    text-align: center;
+    margin-top: 30px;
+    background-color: #123;
+    color: #7777;
+    box-shadow: 0px 0px 1px 1px #7777;
+}
+.contentbox {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0e1924;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 20px 65px;
+    border-radius: 4px;
+    width: fit-content;
+    margin: auto;
+}
+.contentbox > div {
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.contentbox input {
+    outline: none;
+    margin-top: 0;
+    padding: 8px;
+    border: none;
+    border: 1px solid #ffc107;
+    border-radius: 4px;
+}
+.contentbox button{
+    border: none;
+    padding: 8px;
+    background-color: #ffc107;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.showletter {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #26394d82;
+    border-radius: 4px;
+}
+.showletter div {
+    background-color: #ffc107;
+    margin: 4px 0;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    display: flex;
+    color: #123;
+    align-items: center;
+    font-weight: 900;
+    border-radius: 3px;
+}
+.saved {
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+}
+.gototest {
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    border-radius: 4px;}

@@ -1,0 +1,21 @@
+.navbar {
+    background-color: #123;
+}
+.navbar .logo {
+    color: #ffc107;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: fangsong;
+}
+.navcontent {
+    justify-content: center;
+    align-items: center;
+}
+.Link {
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.Link:hover {
+    color: #ffc107;
+}

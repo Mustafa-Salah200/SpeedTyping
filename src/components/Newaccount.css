@@ -1,0 +1,49 @@
+.createaccount {
+    background-color: #09121a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.createbox {
+    width: 400px;
+    text-align: center;
+}
+.createaccount .title {
+    color: #ffc107;
+}
+.createaccount h3 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 34px;
+}
+.form {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.createaccount input {
+    padding: 7px;
+    background-color: #123;
+    border: 1px solid #123;
+    border-radius: 3px;
+}
+.createaccount input:focus {
+    outline: none;
+}
+.createaccount button {
+    border: 1px solid #123;
+    background-color: #ffc107;
+    border-radius: 4px;
+    padding: 10px;
+    color: #123;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer {
+    color: #777;
+}
+.create{
+    text-decoration: none;
+    color: #ffc107;
+}

@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.lesson {
+    position: relative;
+    height: 100vh;
+    background-color: #09121a;
+}
+.lessontitle {
+    text-align: center;
+    font-weight: bold;
+    color: #ffc107;
+    letter-spacing: 4px;
+    padding: 20px;
+    border-bottom: 1px solid;}
+h2.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h2.info .timeanimtion {
+    transform: scale(0.4);
+    animation-name: big;
+    animation-iteration-count: infinite;
+    animation-duration: 0.65s;
+    animation-direction: alternate-reverse;
+}
+@keyframes big {
+    to {
+        transform: scale(1.03);
+    }
+}
+p.text-primary {
+    justify-content: center;
+    align-items: center;
+}
+.timeanimtion {
+    margin: 0;
+}
+.worning {
+    color: #ffc107;
+}
+.cover {
+    position: absolute;
+    width: 100%;
+    height: 115%;
+    background-color: rgb(165 178 199 / 27%);
+    top: 0;
+    left: 0;
+    z-index: 8;
+}
+.start {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 40px;
+    background-color: #123;
+    text-align: center;
+    z-index: 10;
+    border-radius: 3px;
+}
+.starttitle {
+    color: #ffc107;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+.start button {
+    color: #123;
+    background-color: #ffc107;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.words {
+    margin-bottom: 60px;
+    background-color: #123;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: inset 1px 1px 10px -8px #000;
+    align-items: center;
+}
+.box {
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    margin: 5px;
+    border: 1px solid #7777;
+    width: 45px;
+    font-weight: bold;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    height: 45px;
+}
+.boxactive::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    transform: scaleX(0);
+    background-color: #1336ff;
+    animation-name: active;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes active {
+    to {
+        transform: scaleX(1);
+    }
+}
+.letters {
+    background-color: #123;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.letters div input{
+    position: relative;
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #09121a;
+    color: #7777;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    caret-color: #09121a;
+}
+.letters div input:focus {
+    outline: none;
+    bottom: 10px;
+}
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+}
+.done {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 40px;
+    background-color: #123;
+    text-align: center;
+    z-index: 10;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 115%;
+    background-color: rgb(165 178 199 / 27%);
+    top: 0;
+    left: 0;
+    z-index: 8;
+}
+.done_title {
+    color: #ffc107;
+}
+.scorediv,
+.buttondiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin: 5px 0;
+    gap: 40px;
+}
+.buttondiv a {
+    text-decoration: none;
+    padding: 5px;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.buttondiv > a {
+    background-color: #17a7c4;
+}
+.buttondiv a:last-child {
+    background-color: #dc3545;
+}

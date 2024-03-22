@@ -1,0 +1,67 @@
+.login {
+    background-color: #09121a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.loginbox {
+    width: 400px;
+    text-align: center;
+
+}
+.login .title {
+    color: #ffc107;
+}
+.login h3 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 34px;
+}
+.form {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.login .form #email,
+.login .form #pass {
+    padding: 7px;
+    background-color: #123;
+    border: 1px solid #123;
+    border-radius: 3px;
+}
+.login .form #email:focus,
+.login .form #pass:focus {
+    outline: none;
+}
+.login button {
+    border: 1px solid #123;
+    background-color: #ffc107;
+    border-radius: 4px;
+    padding: 10px;
+    color: #123;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer {
+    color: #777;
+}
+.create{
+    text-decoration: none;
+    color: #ffc107;
+}
+.gotoprofile {
+    color: #123;
+    text-decoration: none;
+    background-color: #ffc107;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+h2.success {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #198754;
+    font-size: 40px;
+}
